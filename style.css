@@ -7,7 +7,12 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 
 /* cambien aquí sus tipografías, necesitan definir un par */
 
-@import url("https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400&family=Dela+Gothic+One&display=swap");
+@import url(“https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap”);
+@import url(“https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap”);
+@import url(“https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap”);
+@import url(“https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap”);
+
+
 
 /* cambien aquí sus colores, necesitan definir tres */
 
@@ -21,8 +26,8 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 
 body {
     /* asignen aquí las tipografías y colores para todo texto */
-    font-family: "Andika New Basic", sans-serif;
-    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
     background: var(--segundocolor);
     color: var(--colorclaro);
 }
@@ -39,8 +44,8 @@ h5,
 h6,
 p.lead {
     /* asignen aquí la tipografía y peso que corresponda para los títulos */
-    font-family: "Dela Gothic One", cursive;
-    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
 }
 
 a {
